@@ -81,6 +81,7 @@ header{
     background-color: rgb(211,211,211);  
     position: relative;
     top: 60px;
+    margin-bottom:76px ;
 }
 
 
@@ -130,14 +131,28 @@ header{
 .main-section-aside-mobile{
     display: flex;
     flex-direction: column;
-    margin: 16px;
+    margin: 0  16px;
+    
+    
 }
 
-.aside-mobile{
-    display: flex;
-    flex-direction: column;
-   
+
+.aside-image-mobile img{
+   height: auto;
+   width: 100%; 
 }
+
+
+
+
+
+.aside-text-mobile{
+    margin: 64px 16px;
+}
+
+
+
+
 
     
 }
@@ -164,7 +179,6 @@ header{
 .log-text{
     display: flex;
     flex: 1;
-    /* align-items: center; */
     margin: 24px;
     
 }
