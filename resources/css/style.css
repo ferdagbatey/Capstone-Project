@@ -75,19 +75,18 @@ header{
         display: none;
     }
 
-    .main-header-text-mobile{
-        /* display: flex;
-        flex-direction: column; */
-        position: relative;
-        top: 60px;
-}
+
 
 .main-banner-mobile{
-    background-color: rgb(211,211,211);
+    background-color: rgb(211,211,211);  
+    position: relative;
+    top: 60px;
 }
+
+
  
 
-    .main-banner-mobile img{
+.main-banner-mobile img{
     max-width: 100%;
     height: auto;
     display: block;
@@ -135,7 +134,7 @@ header{
 }
 
 .aside-mobile{
-     display: flex;
+    display: flex;
     flex-direction: column;
    
 }
